@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+html,
+body {
+	font-family: "VT323", monospace;
+	padding: 0;
+	margin: 0;
+	background: url("/img/w3mon.bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	caret-color: transparent;
+	color: white;
+	font-size: 120%;
+}
+
+.login-btn {
+	background: rgb(45, 45, 45);
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(222, 222, 222);
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 80%;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	font-family: "VT323", monospace;
+}
+
+.login-btn:hover {
+	background: rgb(229, 229, 229);
+	color: rgb(21, 21, 21);
+	border: 2px solid rgb(43, 43, 43);
+}
+
+.main-title {
+	font-size: 400%;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	text-align: center;
+	margin-top: 3vh;
+	margin-bottom: 10vh;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 20px;
+	background: rgba(200, 200, 200, 0.3);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+
+	width: 66vw;
+	margin: auto;
+	min-height: 333px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 120%;
+	text-align: center;
+}
